@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E146E6432A52027400E04422 /* lazy_cashierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E146E6422A52027400E04422 /* lazy_cashierApp.swift */; };
+		E146E6452A52027400E04422 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E146E6442A52027400E04422 /* ContentView.swift */; };
+		E146E6472A52027500E04422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E146E6462A52027500E04422 /* Assets.xcassets */; };
+		E146E64A2A52027500E04422 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E146E6492A52027500E04422 /* Preview Assets.xcassets */; };
+		E146E6522A52030D00E04422 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E146E6512A52030D00E04422 /* ProductView.swift */; };
+		E146E6552A52034900E04422 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E146E6542A52034900E04422 /* Model.swift */; };
+		E146E6572A52035400E04422 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E146E6562A52035400E04422 /* Product.swift */; };
+		E146E6592A5203F000E04422 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E146E6582A5203F000E04422 /* Category.swift */; };
+		E146E65B2A520D6F00E04422 /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E146E65A2A520D6F00E04422 /* ProductsView.swift */; };
+		E17251032A52F313004A0825 /* ChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17251022A52F313004A0825 /* ChangeView.swift */; };
+		E17251052A52F3CF004A0825 /* BankNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17251042A52F3CF004A0825 /* BankNoteView.swift */; };
+		E17CE43E2A52B076005D0925 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17CE43D2A52B076005D0925 /* Cart.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E146E63F2A52027400E04422 /* lazy-cashier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lazy-cashier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E146E6422A52027400E04422 /* lazy_cashierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lazy_cashierApp.swift; sourceTree = "<group>"; };
+		E146E6442A52027400E04422 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E146E6462A52027500E04422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E146E6492A52027500E04422 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E146E6512A52030D00E04422 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		E146E6542A52034900E04422 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E146E6562A52035400E04422 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E146E6582A5203F000E04422 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E146E65A2A520D6F00E04422 /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		E17251022A52F313004A0825 /* ChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeView.swift; sourceTree = "<group>"; };
+		E17251042A52F3CF004A0825 /* BankNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankNoteView.swift; sourceTree = "<group>"; };
+		E17CE43D2A52B076005D0925 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E146E63C2A52027400E04422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E146E6362A52027400E04422 = {
+			isa = PBXGroup;
+			children = (
+				E146E6412A52027400E04422 /* lazy-cashier */,
+				E146E6402A52027400E04422 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E146E6402A52027400E04422 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E146E63F2A52027400E04422 /* lazy-cashier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E146E6412A52027400E04422 /* lazy-cashier */ = {
+			isa = PBXGroup;
+			children = (
+				E17CE43C2A52B02D005D0925 /* Components */,
+				E17CE43B2A52AFB8005D0925 /* Base */,
+				E146E6532A52033600E04422 /* Models */,
+				E146E6422A52027400E04422 /* lazy_cashierApp.swift */,
+				E146E6442A52027400E04422 /* ContentView.swift */,
+				E146E6462A52027500E04422 /* Assets.xcassets */,
+				E146E6482A52027500E04422 /* Preview Content */,
+			);
+			path = "lazy-cashier";
+			sourceTree = "<group>";
+		};
+		E146E6482A52027500E04422 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E146E6492A52027500E04422 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E146E6502A5202F400E04422 /* ProductComponent */ = {
+			isa = PBXGroup;
+			children = (
+				E146E6512A52030D00E04422 /* ProductView.swift */,
+				E146E65A2A520D6F00E04422 /* ProductsView.swift */,
+			);
+			path = ProductComponent;
+			sourceTree = "<group>";
+		};
+		E146E6532A52033600E04422 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E146E6542A52034900E04422 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E17251012A52F305004A0825 /* ChangeComponent */ = {
+			isa = PBXGroup;
+			children = (
+				E17251022A52F313004A0825 /* ChangeView.swift */,
+				E17251042A52F3CF004A0825 /* BankNoteView.swift */,
+			);
+			path = ChangeComponent;
+			sourceTree = "<group>";
+		};
+		E17CE43B2A52AFB8005D0925 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E146E6562A52035400E04422 /* Product.swift */,
+				E146E6582A5203F000E04422 /* Category.swift */,
+				E17CE43D2A52B076005D0925 /* Cart.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E17CE43C2A52B02D005D0925 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E17251012A52F305004A0825 /* ChangeComponent */,
+				E146E6502A5202F400E04422 /* ProductComponent */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E146E63E2A52027400E04422 /* lazy-cashier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E146E64D2A52027500E04422 /* Build configuration list for PBXNativeTarget "lazy-cashier" */;
+			buildPhases = (
+				E146E63B2A52027400E04422 /* Sources */,
+				E146E63C2A52027400E04422 /* Frameworks */,
+				E146E63D2A52027400E04422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lazy-cashier";
+			packageProductDependencies = (
+			);
+			productName = "lazy-cashier";
+			productReference = E146E63F2A52027400E04422 /* lazy-cashier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E146E6372A52027400E04422 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E146E63E2A52027400E04422 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = E146E63A2A52027400E04422 /* Build configuration list for PBXProject "lazy-cashier" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E146E6362A52027400E04422;
+			packageReferences = (
+			);
+			productRefGroup = E146E6402A52027400E04422 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E146E63E2A52027400E04422 /* lazy-cashier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E146E63D2A52027400E04422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E146E64A2A52027500E04422 /* Preview Assets.xcassets in Resources */,
+				E146E6472A52027500E04422 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E146E63B2A52027400E04422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E146E65B2A520D6F00E04422 /* ProductsView.swift in Sources */,
+				E146E6572A52035400E04422 /* Product.swift in Sources */,
+				E17251052A52F3CF004A0825 /* BankNoteView.swift in Sources */,
+				E17251032A52F313004A0825 /* ChangeView.swift in Sources */,
+				E17CE43E2A52B076005D0925 /* Cart.swift in Sources */,
+				E146E6452A52027400E04422 /* ContentView.swift in Sources */,
+				E146E6552A52034900E04422 /* Model.swift in Sources */,
+				E146E6522A52030D00E04422 /* ProductView.swift in Sources */,
+				E146E6432A52027400E04422 /* lazy_cashierApp.swift in Sources */,
+				E146E6592A5203F000E04422 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E146E64B2A52027500E04422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E146E64C2A52027500E04422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E146E64E2A52027500E04422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lazy-cashier/Preview Content\"";
+				DEVELOPMENT_TEAM = 9YJ37H3RWT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.resch.lazy-cashier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E146E64F2A52027500E04422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lazy-cashier/Preview Content\"";
+				DEVELOPMENT_TEAM = 9YJ37H3RWT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.resch.lazy-cashier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E146E63A2A52027400E04422 /* Build configuration list for PBXProject "lazy-cashier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E146E64B2A52027500E04422 /* Debug */,
+				E146E64C2A52027500E04422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E146E64D2A52027500E04422 /* Build configuration list for PBXNativeTarget "lazy-cashier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E146E64E2A52027500E04422 /* Debug */,
+				E146E64F2A52027500E04422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E146E6372A52027400E04422 /* Project object */;
+}
